@@ -1,0 +1,7 @@
+﻿  test_V1.1.cpp
+c:\users\shand\desktop\minefiled\v1.0\test_v1.1\test_v1.1\test_v1.1.cpp(24): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\shand\desktop\minefiled\v1.0\test_v1.1\test_v1.1\test_v1.1.cpp(219): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  c:\users\shand\desktop\minefiled\v1.0\test_v1.1\test_v1.1\test_v1.1.cpp(219): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  c:\users\shand\desktop\minefiled\v1.0\test_v1.1\test_v1.1\test_v1.1.cpp(219): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  c:\users\shand\desktop\minefiled\v1.0\test_v1.1\test_v1.1\test_v1.1.cpp(219): note: 此参数用作缓冲区大小
+  test_V1.1.vcxproj -> C:\Users\shand\Desktop\Minefiled\v1.0\test_V1.1\Debug\test_V1.1.exe

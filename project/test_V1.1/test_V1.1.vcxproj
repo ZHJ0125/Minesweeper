@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{DE673AF8-A9AF-43E4-86E9-365081F0CB29}</ProjectGuid>
+    <ProjectGuid>{E435EA04-BD1D-4B0B-AEF8-CAFA83340E76}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>testV10</RootNamespace>
+    <RootNamespace>testV11</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -157,7 +158,13 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="test_V1.0.cpp" />
+    <ClCompile Include="test_V1.1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_V1.1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
